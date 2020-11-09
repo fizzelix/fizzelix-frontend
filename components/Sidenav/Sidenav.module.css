@@ -1,0 +1,95 @@
+.container {
+  height: 100%;
+  position: absolute;
+  background-color: #78b0a0;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.lede {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  padding: 0px 15px;
+  white-space: nowrap;
+}
+
+.list {
+  list-style-type: none;
+  text-align: left;
+  padding: 0 30px;
+}
+
+.list li:first-child {
+  margin-top: 40px;
+}
+
+.list li {
+  margin-bottom: 25px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+}
+
+.list li a:hover {
+  text-decoration: underline;
+}
+
+.logout {
+  font-size: large;
+  font-weight: bold;
+  color: #bb5050;
+  font-family: "Raleway", sans-serif;
+}
+
+.logout a {
+  color: #bb5050 !important;
+}
+
+.logout:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.closeButton {
+  text-align: right;
+  font-size: 1.5rem;
+  margin: 10px 20px 0px;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .closeButton {
+    display: none;
+  }
+
+  .container {
+    position: relative;
+    display: block !important;
+    /* width: 40%; */
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    /* width: 30%; */
+  }
+}
+
+@media (min-width: 2000px) {
+  .container {
+    /* width: 20%; */
+  }
+}

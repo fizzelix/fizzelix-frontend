@@ -1,0 +1,23 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.navButton {
+  font-size: 1.5rem;
+  margin: 10px 15px;
+}
+
+.navButton:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .main {
+    grid-template-columns: 280px 1fr;
+  }
+
+  .navButton {
+    display: none;
+  }
+}

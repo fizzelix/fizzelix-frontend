@@ -1,0 +1,24 @@
+{
+  "name": "fizzelix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "clean": "rm -rf .next/"
+  },
+  "keywords": [],
+  "author": "Paulo Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^16.14.0",
+    "swr": "^0.1.18",
+    "unfetch": "^4.2.0"
+  }
+}

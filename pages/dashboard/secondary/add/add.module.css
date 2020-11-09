@@ -1,0 +1,58 @@
+.wrapper {
+  color: #fff6f6;
+  margin-left: 30px;
+  margin-top: 3%;
+}
+
+.wrapper h1 {
+  font-family: "montserrat";
+}
+
+.dek {
+  width: 80%;
+  line-height: 1.5;
+}
+
+.form > div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form > div > div {
+  margin-right: 15px;
+}
+
+.form label {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  font-family: "raleway";
+}
+
+.form input,
+.form textarea {
+  border-radius: 5px;
+  border: none;
+  padding: 6px 5px;
+}
+
+.form h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.ctaTrack {
+  float: right;
+  margin-top: 4%;
+  margin-right: 10%;
+  padding: 10px 25px;
+  border: 1px solid #3983a3;
+  background-color: #0b5f84;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "raleway";
+  font-weight: bold;
+}

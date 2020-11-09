@@ -1,0 +1,36 @@
+.container {
+  margin: auto;
+  width: 70%;
+  background-color: white;
+  padding: 25px 55px;
+}
+
+.title {
+  font-size: 1.6rem;
+}
+
+.dek {
+  font-size: 1.2rem;
+  color: #686868;
+  line-height: 1.6rem;
+  margin-bottom: 25px;
+}
+
+.section {
+  margin: 25px 0;
+}
+
+.section ol,
+.section ul {
+  line-height: 1.4rem;
+}
+
+.section ol li,
+.section ul li {
+  margin-bottom: 10px;
+}
+
+.cred {
+  display: grid;
+  place-items: center;
+}

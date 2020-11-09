@@ -1,0 +1,45 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "graph" "primary" "secondary" "history";
+  gap: 15px;
+  margin: 0 5%;
+}
+
+.graph {
+  grid-area: graph;
+  margin-top: 2%;
+  background-color: #3f5f47;
+  border-radius: 20px;
+  padding: 35px 40px;
+}
+
+.primary {
+  grid-area: primary;
+}
+
+.secondary {
+  grid-area: secondary;
+}
+
+.history {
+  grid-area: history;
+}
+
+@media (min-width: 700px) {
+  .navButton {
+    display: none;
+  }
+
+  .main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "graph graph graph"
+      "primary secondary history";
+    margin: 0 50px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+}

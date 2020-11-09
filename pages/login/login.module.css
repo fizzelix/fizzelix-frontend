@@ -1,0 +1,58 @@
+.header {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.header a {
+  color: #252525;
+  text-decoration: none;
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.form * {
+  font-family: "Raleway", sans-serif;
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.form input {
+  border-radius: 5px;
+  padding: 8px 0;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.form .input {
+  margin-bottom: 15px;
+}
+
+.form button {
+  width: 70%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.form button:hover {
+  cursor: pointer;
+}
+
+.errors {
+  margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+  .form {
+    width: 20%;
+  }
+}

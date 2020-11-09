@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Dancing+Script&display=swap");
+
+body {
+  margin: 0px;
+  background-color: #476c51;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+span,
+ol,
+ul {
+  font-family: "Raleway", sans-serif;
+}
+
+.secondary-text {
+  color: #252525;
+}
+
+.yellow {
+  color: #f8d0b0;
+}
+
+main {
+  background-color: #476c51;
+  height: 100vh;
+}
+
+.light-bg {
+  background-color: #78b0a0;
+}
+
+.dark-bg {
+  background-color: #3f5f47;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+}
+
+.logo a {
+  color: #252525;
+  text-decoration: none;
+}
+
+.action-btn {
+  font-family: "Raleway", sans-serif;
+  background-color: #0b5f84;
+  color: white;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
