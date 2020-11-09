@@ -34,7 +34,7 @@ export default () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    const req = await fetch("http://fizzelix-api.herokuapp.com/login", {
+    const req = await fetch("https://fizzelix-api.herokuapp.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
